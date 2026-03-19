@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #C9A84C;
+  --gold-light: #E8C97A;
+  --gold-dim: rgba(201, 168, 76, 0.15);
+  --volt-bg: #080808;
+  --volt-bg2: #0f0f0f;
+  --volt-text: #e8e0d0;
+  --volt-muted: #5a5550;
+  --volt-line: rgba(201, 168, 76, 0.2);
+  --dark: #0A0A0A;
+  --dark-2: #111111;
+  --dark-3: #1A1A1A;
+  --dark-4: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0A0A0A;
+  color: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+}
